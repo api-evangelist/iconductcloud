@@ -1,0 +1,15 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://iconductcloud.com/release-notes/
+sources:
+- https://iconductcloud.com/release-notes/
+entries:
+- breaking: false
+  highlights:
+  - Release/ Version 6.10
+  - June 8, 2026
+  - 'Release Date : May 5, 2026 As part of our continuous improvements and enhancements to our product, please see below'
+  date: '2026-05-05'
+current_version: '6.10'
+docs: https://iconductcloud.com/release-notes/

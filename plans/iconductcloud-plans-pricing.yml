@@ -1,0 +1,37 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://iconductcloud.com/pricing/
+sources:
+- https://iconductcloud.com/pricing/
+- https://iconductcloud.com/you-should-know-about-business-plan/
+name: IConduct Ltd pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Free
+  price_text: 0$ / month
+  price: 0
+- name: Standard
+  price_text: 825$ / month
+  price: 825
+- name: Unlimited
+  price_text: Talk to sales
+- name: Additional Interface
+  price_text: $170 /Month Monthly Rate. pre-paid annually
+  price: 170
+- name: Two Additional Parallel Executions
+  price_text: $295 /Month Monthly Rate. pre-paid annually
+  price: 295
+- name: Two Additional Secured Cloud Agents
+  price_text: $295 /Month Monthly Rate. pre-paid annually
+  price: 295
+- name: HyperCare Support
+  price_text: $390 /Month Monthly Rate. pre-paid annually
+  price: 390
+- name: Audit Trail
+  price_text: $590 /Month Monthly Rate. pre-paid annually
+  price: 590
+- name: On-Premises / Private Cloud
+  price_text: Talk to sales
+docs: https://iconductcloud.com/pricing/

@@ -1,23 +1,86 @@
 aid: iconductcloud
+
 name: IConduct Ltd
-description: 'IConduct Ltd is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: http://iconductcloud.com/wp-content/uploads/2023/05/Wilcalaf_a_hyper_realistic_technological_world_map_16e1cd9d-28ed-4fef-9c63-15a4a83089d1-600x800.png
+
+description: 'IConduct Ltd provides an integration platform that connects enterprise systems, enabling seamless data flow and operational orchestration. Based in Israel, Iconductcloud offers connectors across various applications, robust security, and tools for developers to build and manage integrations. The platform supports complex enterprise organizations, delivering stable integration infrastructure essential for AI-driven initiatives and digital transformation.'
+
 url: https://raw.githubusercontent.com/api-evangelist/iconductcloud/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
-- Company
-apis: []
+- Integration
+- Platform
+- Enterprise
+- Israel
+- API
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/iconductcloud-plans-pricing.yml
+- type: ChangeLog
+  url: changelog/iconductcloud-changelog.yml
+- type: Compliance
+  url: https://iconductcloud.com/security/
+- type: LLMsTxt
+  url: llms/iconductcloud-llms.txt
+- type: Hosts
+  url: hosts/iconductcloud-hosts.yml
+- type: Security
+  url: https://iconductcloud.com/security/
+- type: ChangeLog
+  url: https://iconductcloud.com/release-notes/
+- type: TrustCenter
+  url: security/iconductcloud-trust-center.yml
+- type: DomainSecurity
+  url: security/iconductcloud-domain-security.yml
 - type: Website
   url: https://iconductcloud.com/
+- type: Documentation
+  url: https://iconductcloud.com/how-it-works/
+- type: GettingStarted
+  url: https://iconductcloud.com/why-iconduct/
+- type: Support
+  url: https://iconductcloud.com/support/
+- type: Blog
+  url: https://iconductcloud.com/articles/
+- type: Pricing
+  url: https://iconductcloud.com/pricing/
+- type: SignUp
+  url: https://iconductcloud.com/contact-us/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The API reference page https://iconductcloud.com/api-docs/ returns an error and appears to be a JavaScript‑rendered portal with no machine‑readable spec.
+  evidence:
+    - url: https://iconductcloud.com/api-docs/
+      status: error
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

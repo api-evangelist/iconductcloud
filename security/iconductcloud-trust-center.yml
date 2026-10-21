@@ -1,0 +1,13 @@
+generated: '2026-10-20'
+method: searched
+probe: true
+source: https://iconductcloud.com/security/
+url: https://iconductcloud.com/security/
+certifications:
+- SOC 2
+- ISO 27001
+evidence:
+- source: https://iconductcloud.com/security/
+  keywords:
+  - soc 2
+  - soc2
